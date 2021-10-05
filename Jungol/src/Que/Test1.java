@@ -10,6 +10,8 @@ public class Test1 {
 		double inp = sc.nextDouble();
 		sc.close();
 		
+		System.out.println("몸무게를 입력하세요");
+		
 		if(inp<=50.08) {
 			System.out.println("Flyweight");
 		}else if(inp <= 61.23) {
